@@ -3,7 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.CDC.Api", "src\Dotnet.CDC.Api\Dotnet.CDC.Api.csproj", "{2183ECB9-EACB-4D02-A1AA-853AE12E8F54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{589EBBCB-D501-4AAB-ABF1-0589AEBAEBF4}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		my.cnf = my.cnf
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2183ECB9-EACB-4D02-A1AA-853AE12E8F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2183ECB9-EACB-4D02-A1AA-853AE12E8F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2183ECB9-EACB-4D02-A1AA-853AE12E8F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2183ECB9-EACB-4D02-A1AA-853AE12E8F54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
